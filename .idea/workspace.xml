@@ -1,9 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c0bd48d9-179b-4705-8d00-f87c7f5dbdd1" name="Changes" comment="MyMath객체, 테스트 객체 생성">
+    <list default="true" id="c0bd48d9-179b-4705-8d00-f87c7f5dbdd1" name="Changes" comment="테스트 파일 코드 리팩토링">
+      <change afterPath="$PROJECT_DIR$/test/com.maicoding.junit/MyAssertTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/com.maicoding.junit/MyAssertTestTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/com.maicoding.junit/MyBeforeAfterTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/com.maicoding.junit/MyBeforeAfterTestTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/com.maicoding.junit/MyMathTestTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/com.maicoding.junit/MyMathTestTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,7 +63,38 @@
       <recent name="com.maicoding.junit" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.MyMathTestTest">
+  <component name="RunManager" selected="JUnit.MyBeforeAfterTestTest">
+    <configuration name="MyAssertTestTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="junit-in-5-steps" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.maicoding.junit.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.maicoding.junit" />
+      <option name="MAIN_CLASS_NAME" value="com.maicoding.junit.MyAssertTestTest" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MyBeforeAfterTestTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="junit-in-5-steps" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.maicoding.junit.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.maicoding.junit" />
+      <option name="MAIN_CLASS_NAME" value="com.maicoding.junit.MyBeforeAfterTestTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="MyMathTestTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="junit-in-5-steps" />
       <extension name="coverage">
@@ -110,6 +144,8 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.MyBeforeAfterTestTest" />
+        <item itemvalue="JUnit.MyAssertTestTest.test" />
         <item itemvalue="JUnit.MyMathTestTest" />
         <item itemvalue="JUnit.MyMathTestTest.testZero" />
         <item itemvalue="JUnit.MyMathTestTest.test" />
@@ -124,7 +160,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1692730676719</updated>
-      <workItem from="1692730678498" duration="1074000" />
+      <workItem from="1692730678498" duration="1656000" />
     </task>
     <task id="LOCAL-00001" summary="MyMath객체, 테스트 객체 생성">
       <created>1692731483715</created>
@@ -133,7 +169,14 @@
       <option name="project" value="LOCAL" />
       <updated>1692731483715</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="테스트 파일 코드 리팩토링">
+      <created>1692731829987</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1692731829987</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -152,6 +195,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="MyMath객체, 테스트 객체 생성" />
-    <option name="LAST_COMMIT_MESSAGE" value="MyMath객체, 테스트 객체 생성" />
+    <MESSAGE value="inline 리팩토링" />
+    <MESSAGE value="테스트 파일 코드 리팩토링" />
+    <option name="LAST_COMMIT_MESSAGE" value="테스트 파일 코드 리팩토링" />
   </component>
 </project>
